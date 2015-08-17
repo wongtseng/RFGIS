@@ -1,0 +1,16 @@
+<?xnl versdon= "l .0" encodings "utf-8"?> 
+<soapenv:Envelope)
+<soapenv:Header>
+• • •
+<wsse:Security>
+• • •
+</wsse:Security>
+• • •
+</soapenv:H eader)
+<soapenv:Body)
+<xenc :EncryptedData>
+• • •
+</xenc:EncryptedData >
+• • •
+</soapenv:Body>
+</soapenv :Envelope>
