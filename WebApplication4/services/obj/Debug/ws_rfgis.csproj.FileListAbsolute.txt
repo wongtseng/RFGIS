@@ -1,0 +1,6 @@
+c:\users\wongtseng\documents\visual studio 2013\Projects\ws_rfgis\ws_rfgis\bin\ws_rfgis.dll.config
+c:\users\wongtseng\documents\visual studio 2013\Projects\ws_rfgis\ws_rfgis\bin\ws_rfgis.dll
+c:\users\wongtseng\documents\visual studio 2013\Projects\ws_rfgis\ws_rfgis\bin\ws_rfgis.pdb
+c:\users\wongtseng\documents\visual studio 2013\Projects\ws_rfgis\ws_rfgis\obj\Debug\ws_rfgis.dll
+c:\users\wongtseng\documents\visual studio 2013\Projects\ws_rfgis\ws_rfgis\obj\Debug\ws_rfgis.pdb
+C:\Users\wongtseng\Documents\Visual Studio 2013\Projects\ws_rfgis\ws_rfgis\obj\Debug\ws_rfgis.csprojResolveAssemblyReference.cache

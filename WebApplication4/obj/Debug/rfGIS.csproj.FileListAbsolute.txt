@@ -1,0 +1,12 @@
+E:\人防部署\部署\WebApplication4\WebApplication4\bin\WebApplication4.dll.config
+E:\人防部署\部署\WebApplication4\WebApplication4\bin\WebApplication4.dll
+E:\人防部署\部署\WebApplication4\WebApplication4\bin\WebApplication4.pdb
+E:\人防部署\部署\WebApplication4\WebApplication4\obj\Debug\WebApplication4.dll
+E:\人防部署\部署\WebApplication4\WebApplication4\obj\Debug\WebApplication4.pdb
+E:\人防部署\部署\WebApplication4\WebApplication4\obj\Debug\rfGIS.csprojResolveAssemblyReference.cache
+C:\Users\wongtseng\Documents\Visual Studio 2013\Projects\WebApplication4\WebApplication4\bin\WebApplication4.dll.config
+C:\Users\wongtseng\Documents\Visual Studio 2013\Projects\WebApplication4\WebApplication4\bin\WebApplication4.dll
+C:\Users\wongtseng\Documents\Visual Studio 2013\Projects\WebApplication4\WebApplication4\bin\WebApplication4.pdb
+C:\Users\wongtseng\Documents\Visual Studio 2013\Projects\WebApplication4\WebApplication4\obj\Debug\WebApplication4.dll
+C:\Users\wongtseng\Documents\Visual Studio 2013\Projects\WebApplication4\WebApplication4\obj\Debug\WebApplication4.pdb
+C:\Users\wongtseng\Documents\Visual Studio 2013\Projects\WebApplication4\WebApplication4\obj\Debug\rfGIS.csprojResolveAssemblyReference.cache

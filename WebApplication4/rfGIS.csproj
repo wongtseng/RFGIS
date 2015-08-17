@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4FD01ECA-54F9-4DD2-962A-0014C58CF25D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication4</RootNamespace>
+    <AssemblyName>WebApplication4</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LitJSON">
+      <HintPath>..\..\..\..\..\Desktop\kindeditor-4.1.10\asp.net\bin\LitJSON.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Change Log.txt" />
+    <Content Include="css\buttonstyle.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="editor.aspx" />
+    <Content Include="editor\kindeditor-all-min.js" />
+    <Content Include="editor\kindeditor-all.js" />
+    <Content Include="editor\kindeditor-min.js" />
+    <Content Include="editor\kindeditor.js" />
+    <Content Include="editor\license.txt" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="image\activity_monitor_add.png" />
+    <Content Include="image\arrow_up.png" />
+    <Content Include="image\baidu.jpg" />
+    <Content Include="image\close.png" />
+    <Content Include="image\file_cancel.png" />
+    <Content Include="image\File_List.png" />
+    <Content Include="image\gallery.png" />
+    <Content Include="image\image.png" />
+    <Content Include="image\loading.gif" />
+    <Content Include="image\login.jpg" />
+    <Content Include="image\logout.png" />
+    <Content Include="image\newspaper_close.png" />
+    <Content Include="image\offline.png" />
+    <Content Include="image\online.png" />
+    <Content Include="image\tab.png" />
+    <Content Include="image\tab_.png" />
+    <Content Include="image\user-4-remove.png" />
+    <Content Include="image\user-4.png" />
+    <Content Include="image\user.png" />
+    <Content Include="image\vicon.png" />
+    <Content Include="image\webcam.png" />
+    <Content Include="image\web_layout.png" />
+    <Content Include="image\window_app_list.png" />
+    <Content Include="image\window_app_list_add.png" />
+    <Content Include="image\topbanner.jpg" />
+    <Content Include="js\Heatmap_min.js" />
+    <Content Include="js\jquery-1.4.4.min.js" />
+    <Content Include="js\jquery.uploadify.js" />
+    <Content Include="js\jquery.uploadify.min.js" />
+    <Content Include="js\MapFunction.js" />
+    <Content Include="js\MarkerClusterer_min.js" />
+    <Content Include="js\slides.min.jquery.js" />
+    <Content Include="js\TextIconOverlay_min.js" />
+    <Content Include="license.txt" />
+    <Content Include="Login.aspx" />
+    <Content Include="pic\no.jpg" />
+    <Content Include="regsist.aspx" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="SendMessage.aspx" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="StyleSheet2.css" />
+    <Content Include="TextFile1.xml" />
+    <Content Include="Untitled.html" />
+    <Content Include="uploadify-cancel.png" />
+    <Content Include="uploadify.css" />
+    <Content Include="uploadify.swf" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm3.aspx" />
+    <Content Include="WebForm4.aspx" />
+    <Content Include="_MapOff.aspx" />
+    <Content Include="_setapinfo.aspx" />
+    <Content Include="_Map.aspx" />
+    <Content Include="_Info.aspx" />
+    <Content Include="_setbginfo.aspx" />
+    <Content Include="_seteninfo.aspx" />
+    <Content Include="_setrfinfo.aspx" />
+    <Content Include="_setUserType.aspx" />
+    <Content Include="_setSysTemUser.aspx" />
+    <Content Include="_setwsurl.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClientSocket.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor.aspx.cs">
+      <DependentUpon>editor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor.aspx.designer.cs">
+      <DependentUpon>editor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="regsist.aspx.cs">
+      <DependentUpon>regsist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="regsist.aspx.designer.cs">
+      <DependentUpon>regsist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendMessage.aspx.cs">
+      <DependentUpon>SendMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendMessage.aspx.designer.cs">
+      <DependentUpon>SendMessage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UploadHandler.ashx.cs">
+      <DependentUpon>UploadHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="wongtsengDB.cs" />
+    <Compile Include="_MapOff.aspx.cs">
+      <DependentUpon>_MapOff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_MapOff.aspx.designer.cs">
+      <DependentUpon>_MapOff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_setapinfo.aspx.cs">
+      <DependentUpon>_setapinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_setapinfo.aspx.designer.cs">
+      <DependentUpon>_setapinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Map.aspx.cs">
+      <DependentUpon>_Map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Map.aspx.designer.cs">
+      <DependentUpon>_Map.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_Info.aspx.cs">
+      <DependentUpon>_Info.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_Info.aspx.designer.cs">
+      <DependentUpon>_Info.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_setbginfo.aspx.cs">
+      <DependentUpon>_setbginfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_setbginfo.aspx.designer.cs">
+      <DependentUpon>_setbginfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_seteninfo.aspx.cs">
+      <DependentUpon>_seteninfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_seteninfo.aspx.designer.cs">
+      <DependentUpon>_seteninfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_setrfinfo.aspx.cs">
+      <DependentUpon>_setrfinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_setrfinfo.aspx.designer.cs">
+      <DependentUpon>_setrfinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_setUserType.aspx.cs">
+      <DependentUpon>_setUserType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_setUserType.aspx.designer.cs">
+      <DependentUpon>_setUserType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_setSysTemUser.aspx.cs">
+      <DependentUpon>_setSysTemUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_setSysTemUser.aspx.designer.cs">
+      <DependentUpon>_setSysTemUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_setwsurl.aspx.cs">
+      <DependentUpon>_setwsurl.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_setwsurl.aspx.designer.cs">
+      <DependentUpon>_setwsurl.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UploadHandler.ashx" />
+    <Content Include="check-exists.php" />
+    <Content Include="index.php" />
+    <Content Include="uploadify.php" />
+    <Content Include="image\Thumbs.db" />
+    <Content Include="Site1.Master" />
+    <Content Include="editor\.DS_Store" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49510</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49510/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

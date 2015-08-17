@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>带左右按钮jquery图片切换banner特效</title>
+    <script src="js/jquery-1.4.4.min.js"></script>
+    <script src="js/slides.min.jquery.js"></script>
+    <script>
+        $(function () {
+            $('#slides').slides({
+                preload: true,
+                preloadImage: 'img/loading.gif',
+                play: 5000,
+                pause: 2500,
+                hoverPause: true,
+                animationStart: function () {
+                    $('.caption').animate({
+                        bottom: -35
+                    }, 100);
+                },
+
+                animationComplete: function (current) {
+                    $('.caption').animate({
+
+                        bottom: 0
+
+                    }, 200);
+
+                    if (window.console && console.log) {
+
+                        console.log(current);
+
+                    };
+
+                }
+
+            });
+
+        });
+
+    </script>
+
+    <link rel="stylesheet" href="css/global.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="example">
+            <div id="slides">
+                <div class="slides_container">
+                    <div>
+                        <a href="http://www.webskys.com/" onclick="" title="前端开发" target="_blank"><img src="img/slide-1.jpg" width="570" height="270" alt="Slide 1"></a>
+                        <div class="caption" style="bottom:0">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="http://www.webskys.com/" title="前端开发" target="_blank"><img src="img/slide-2.jpg" width="570" height="270" alt="Slide 2"></a>
+                        <div class="caption">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="http://www.webskys.com/" title="前端开发" target="_blank"><img src="img/slide-3.jpg" width="570" height="270" alt="Slide 3"></a>
+                        <div class="caption">
+                            <p></p>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="http://www.webskys.com/" title="前端开发" target="_blank"><img src="img/slide-4.jpg" width="570" height="270" alt="Slide 4"></a>
+                        <div class="caption">
+                            <p></p>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <a href="http://www.webskys.com/" title="前端开发" target="_blank"><img src="img/slide-5.jpg" width="570" height="270" alt="Slide 5"></a>
+
+                        <div class="caption">
+
+                            <p>前端开发五号相册图片</p>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <a href="http://www.zzjs.net" title="前端开发" target="_blank"><img src="img/slide-6.jpg" width="570" height="270" alt="Slide 6"></a>
+
+                        <div class="caption">
+
+                            <p>前端开发六号相册图片</p>
+
+                        </div>
+
+                    </div>
+
+                    <div>
+
+                        <a href="http://www.webskys.com/" title="前端开发" target="_blank"><img src="img/slide-7.jpg" width="570" height="270" alt="Slide 7"></a>
+
+                        <div class="caption">
+
+                            <p>前端开发七号相册图片</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="上一张"></a>
+
+                <a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="下一张"></a>
+
+            </div>
+
+            <img src="img/example-frame.png" width="739" height="341" alt="Example Frame" id="frame">
+
+        </div>
+
+        <p>
+
+    </div>
+
+    <!--下面只是说明与程序代码无关-->
+
+</body>
+
+</html>

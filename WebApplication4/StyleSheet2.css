@@ -1,0 +1,102 @@
+﻿/*系统首页Logo设置*/
+#logoZoner {
+   
+    height: 90px;
+    background-color: #035f82;
+      vertical-align:top;
+      text-align:right;
+      font-family:SimSun;
+      font-size:11px;
+     padding-right:15px;
+     padding-top:5px;
+    font-weight:bold;
+        color:white;
+}
+/*系统菜单区域设置*/
+#menuZone {
+    height: 20px;
+    background-color: #d5e47d;
+    /*height: 20px;*/
+    /*line-height: 20px;*/
+}
+
+table {
+    width: 100%;
+}
+
+#iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    /*font-weight:bold;*/
+    color: black;
+    font-size: 13px;
+}
+
+/*a:visited{
+        color:red;
+
+    }
+    A:hover {
+         color:red;
+    }*/
+
+#main {
+    margin: 0;
+    padding: 0;
+    background-color: #54b1d2;
+    vertical-align: top;
+    padding: initial;
+    line-height: 0;
+}
+
+#body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#mainview {
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox-wrapper {
+    width: 46px;
+    height: 20px;
+    position: relative;
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 16px;
+    transition: all .3s ease-out;
+    box-shadow: 0px 0px 0px 2px #ddd;
+}
+.checkbox {
+    display: none;
+}
+.checkbox-label {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+    transition: all .3s ease-out;
+}
+.checkbox:checked + .checkbox-wrapper {
+    background: #0bd318;
+    box-shadow: 0px 0px 0px 2px #0bd318;
+}
+.checkbox:checked + .checkbox-wrapper .checkbox-label {
+    left: 26px;
+}

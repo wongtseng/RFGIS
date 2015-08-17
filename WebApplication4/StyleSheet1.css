@@ -1,0 +1,193 @@
+﻿
+
+.div_map_tools {
+    padding: 2px 0 0 5px;
+    background: #F4F7FC;
+    border: 1px solid #87879A;
+    margin-bottom: 3px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 75px;
+    line-height: 25px;
+    vertical-align: middle;
+    z-index: 1000;
+    font-size: 12px;
+}
+
+
+
+    .div_map_tools a {
+        text-decoration: none;
+        color: #666;
+        display: block;
+        margin: 0 0 0 2px;
+    }
+
+        .div_map_tools a:hover {
+            color: #C00;
+        }
+
+        .div_map_tools a.active,
+        .div_map_tools a.active:hover {
+            color: #333;
+            font-weight: bold;
+        }
+
+        .div_map_tools a#a_move {
+            background: url(images/move.png) no-repeat 0 5px !important;
+            background: url(images/move.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+        .div_map_tools a#a_add_point {
+            background: url(images/add_point.png) no-repeat 0 5px !important;
+            background: url(images/add_point.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+        .div_map_tools a#a_clear {
+            background: url(images/clear.png) no-repeat 0 5px !important;
+            background: url(images/clear.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+        .div_map_tools a#a_jump {
+            background: url(images/jump.png) no-repeat 0 5px !important;
+            background: url(images/jump.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+        .div_map_tools a#a_detect {
+            background: url(images/detect.png) no-repeat 0 5px !important;
+            background: url(images/detect.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+        .div_map_tools a#a_distance {
+            background: url(images/distance.png) no-repeat 0 5px !important;
+            background: url(images/distance.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+        .div_map_tools a#a_acreage {
+            background: url(images/acreage.png) no-repeat 0 5px !important;
+            background: url(images/acreage.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+        .div_map_tools a#a_center {
+            background: url(images/center.png) no-repeat 0 5px !important;
+            background: url(images/center.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+        .div_map_tools a#a_total {
+            background: url(images/total.png) no-repeat 0 5px !important;
+            background: url(images/total.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+        .div_map_tools a#a_message {
+            background: url(images/message.png) no-repeat 0 5px !important;
+            background: url(images/message.png) no-repeat 0 4px;
+            padding-left: 20px;
+        }
+
+/*定义右侧显示人防信息区域*/
+#infoZone {
+    width: 200px;
+}
+
+.markerslist:hover {
+    background-color: #f0f0f0;
+}
+
+.markerslist {
+    background-color: #fff;
+}
+
+
+.input_text {
+    height: 15px;
+    width: 20px;
+    background: transparent;
+    border: 1px;
+     
+}
+
+.input_text1 {
+    height: 15px;
+    width: 35px;
+    background: transparent;
+    border: 1px;
+     
+}
+
+
+
+
+table {
+    width: 100%;
+}
+
+
+
+a {
+    text-decoration: none;
+    /*font-weight:bold;*/
+    color: white;
+    font-size: 13px;
+}
+
+#pica {
+    color: black;
+}
+
+
+
+/*A:hover {
+         color:red;
+    }*/
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/*系统首页Logo设置*/
+#logoZoner {
+    height: 90px;
+    background-color: #00607F;
+}
+
+/*系统菜单区域设置*/
+#menuZone {
+    height: 20px;
+    background-color: #959CB2;
+    /*height: 20px;*/
+    /*line-height: 20px;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+  .wait{
+    display: table-cell;
+      vertical-align:middle;
+       text-align:center;
+        display:block;
+}
+
+  /*去除百度logo*/
+ .BMap_cpyCtrl
+{
+display:none; 
+}
+.anchorBL{
+display:none; 
+} 
+/*去除百度logo end*/
+/*==============================ctrl hide===========================/*
